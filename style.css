@@ -1,0 +1,104 @@
+body{
+    background-color:white;  
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  z-index: 5;
+  
+  
+  }
+  *
+  {
+    box-sizing: border-box;
+  }
+  #navigation{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    
+      
+    }
+    #logo img{
+      width: 100px;
+      height: 70px;
+      background-color:white;
+  }
+  div #carousel h1{
+    color:blanchedalmond !important;
+    background: transparent;
+    -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color:black;  
+  }
+  #carousel p{
+    font-size: 30px;
+  }
+  @media(max-width:600px){
+    #carousel h1{
+      font-size: 40px;
+    }
+    #carousel p{
+      font-size: 10px;
+    }
+    #carousel button{
+  font-size: small;
+    }
+    
+  }
+  #home h1{
+    color: black;
+}
+#home p{
+    color: black;
+}
+#home img{
+    height: 500px;
+    width: 400px;
+}
+        
+#gamemode img{
+  height:400PX;
+  width:500PX;
+  
+}
+.bg1
+{
+    width: 100%;
+    height:100vh;
+    background-image:url("https://4.bp.blogspot.com/-KcGLXqSvTaU/W1tph9NHTkI/AAAAAAAAPFA/ScxN0GgIGr8UjAzPwHKaMitZGoqAUk7GgCLcBGAs/s1600/Free%2BFire.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    border:white solid 2px;
+}
+.card-img-top{
+  width: 350px;
+  height: 200px;
+}
+
+.card-body:hover{
+background-color: #1C5F07;
+color: white;
+
+}
+.bg2
+{
+    width: 100%;
+    height:30vh;
+    background-image:url(assets/conbg8.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    border:white solid 2px;
+}
+.conlogo
+{
+  height: 200px;
+  width: 150px;
+}
+#home2 img
+{
+  height: 600px;
+  width: 1100px;
+}
